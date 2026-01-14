@@ -26,6 +26,9 @@ header {
 }
 
 section {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
     margin-bottom: 2rem;
 }
 
@@ -34,23 +37,22 @@ ul {
 }
 
 li {
-    margin-bottom: 0,5rem;
+    margin-bottom: 0.5rem;
 }
 
 #produto {
     display: flex;
     gap: 2rem;
     align-items: center;
-    background: #fff;
     padding: 2rem;
     border-radius: 8px;
 }
 
-#produto > img {
+#produto img {
     max-width: 300px;
 }
 
-#produto > h2 {
+#produto h2 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
