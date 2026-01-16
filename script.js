@@ -9,3 +9,10 @@ botao.addEventListener("click", function () {
     botao.classList.add(adicionado);
 });
 
+let nome = "Gabriel";
+let idade = 20;
+let estudando = true;
+
+console.log(nome)
+console.log(idade)
+console.log(estudando)
